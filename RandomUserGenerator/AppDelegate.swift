@@ -26,6 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   
   var copyButtons: Array<NSButton> = [];
   var textFileds: Array<NSTextField> = [];
+  var pictureData = NSData();
 
   func applicationDidFinishLaunching(aNotification: NSNotification) {
     // Insert code here to initialize your application
@@ -42,16 +43,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
   
   @IBAction func saveAction(sender: AnyObject) {
-    // Decide destination path
-    let name = self.nameTextField.stringValue
-    let path = NSHomeDirectory().stringByAppendingString("/Desktop/\(name).png")
-
     // Export image to Desktop
-    let image = self.pictureView.image!
-    let representations = image.representations as NSArray
-    let imageRep = representations.firstObject as NSBitmapImageRep
-    let data = imageRep.representationUsingType(.NSPNGFileType, properties: [NSImageInterlaced: true])
-    data?.writeToFile(path, atomically: true)
+    let path = NSHomeDirectory().stringByAppendingString("/Desktop/\(self.nameTextField.stringValue).jpg")
+    self.pictureData.writeToFile(path, atomically: true)
   }
   
   @IBAction func copyAction(sender: AnyObject) {
@@ -119,7 +113,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let pictureRequest = NSURLRequest(URL: NSURL(string: picture)!)
         var pictureTask = session.dataTaskWithRequest(pictureRequest, completionHandler: { (data, respoonse, error) -> Void in
           let image = NSImage(data: data)
-          
+          self.pictureData = data;
           self.stopLoding()
           
           // Update UI
