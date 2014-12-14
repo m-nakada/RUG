@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  RandomUserGenerator
+//  RUG
 //
 //  Created by m-nakada on 11/12/2014.
-//  Copyright (c) 2014 Nekojarashi. All rights reserved.
+//  Copyright (c) 2014 mna. All rights reserved.
 //
 
 import Cocoa

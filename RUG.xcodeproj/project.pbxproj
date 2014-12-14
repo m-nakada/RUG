@@ -24,12 +24,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E716A291A139722002D3CA5 /* RandomUserGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUserGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E716A291A139722002D3CA5 /* RUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E716A2D1A139722002D3CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E716A2E1A139722002D3CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E716A301A139722002D3CA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E716A331A139722002D3CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		2E716A391A139722002D3CA5 /* RandomUserGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUserGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E716A391A139722002D3CA5 /* RUGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E716A3E1A139722002D3CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E716A3F1A139722002D3CA5 /* RandomUserGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserGeneratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,8 +55,8 @@
 		2E716A201A139722002D3CA5 = {
 			isa = PBXGroup;
 			children = (
-				2E716A2B1A139722002D3CA5 /* RandomUserGenerator */,
-				2E716A3C1A139722002D3CA5 /* RandomUserGeneratorTests */,
+				2E716A2B1A139722002D3CA5 /* RUG */,
+				2E716A3C1A139722002D3CA5 /* RUGTests */,
 				2E716A2A1A139722002D3CA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,13 +64,13 @@
 		2E716A2A1A139722002D3CA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E716A291A139722002D3CA5 /* RandomUserGenerator.app */,
-				2E716A391A139722002D3CA5 /* RandomUserGeneratorTests.xctest */,
+				2E716A291A139722002D3CA5 /* RUG.app */,
+				2E716A391A139722002D3CA5 /* RUGTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E716A2B1A139722002D3CA5 /* RandomUserGenerator */ = {
+		2E716A2B1A139722002D3CA5 /* RUG */ = {
 			isa = PBXGroup;
 			children = (
 				2E716A2E1A139722002D3CA5 /* AppDelegate.swift */,
@@ -78,7 +78,7 @@
 				2E716A321A139722002D3CA5 /* MainMenu.xib */,
 				2E716A2C1A139722002D3CA5 /* Supporting Files */,
 			);
-			path = RandomUserGenerator;
+			path = RUG;
 			sourceTree = "<group>";
 		};
 		2E716A2C1A139722002D3CA5 /* Supporting Files */ = {
@@ -89,13 +89,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2E716A3C1A139722002D3CA5 /* RandomUserGeneratorTests */ = {
+		2E716A3C1A139722002D3CA5 /* RUGTests */ = {
 			isa = PBXGroup;
 			children = (
 				2E716A3F1A139722002D3CA5 /* RandomUserGeneratorTests.swift */,
 				2E716A3D1A139722002D3CA5 /* Supporting Files */,
 			);
-			path = RandomUserGeneratorTests;
+			path = RUGTests;
 			sourceTree = "<group>";
 		};
 		2E716A3D1A139722002D3CA5 /* Supporting Files */ = {
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E716A281A139722002D3CA5 /* RandomUserGenerator */ = {
+		2E716A281A139722002D3CA5 /* RUG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E716A431A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RandomUserGenerator" */;
+			buildConfigurationList = 2E716A431A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RUG" */;
 			buildPhases = (
 				2E716A251A139722002D3CA5 /* Sources */,
 				2E716A261A139722002D3CA5 /* Frameworks */,
@@ -121,14 +121,14 @@
 			);
 			dependencies = (
 			);
-			name = RandomUserGenerator;
+			name = RUG;
 			productName = RandomUserGenerator;
-			productReference = 2E716A291A139722002D3CA5 /* RandomUserGenerator.app */;
+			productReference = 2E716A291A139722002D3CA5 /* RUG.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2E716A381A139722002D3CA5 /* RandomUserGeneratorTests */ = {
+		2E716A381A139722002D3CA5 /* RUGTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E716A461A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RandomUserGeneratorTests" */;
+			buildConfigurationList = 2E716A461A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RUGTests" */;
 			buildPhases = (
 				2E716A351A139722002D3CA5 /* Sources */,
 				2E716A361A139722002D3CA5 /* Frameworks */,
@@ -139,9 +139,9 @@
 			dependencies = (
 				2E716A3B1A139722002D3CA5 /* PBXTargetDependency */,
 			);
-			name = RandomUserGeneratorTests;
+			name = RUGTests;
 			productName = RandomUserGeneratorTests;
-			productReference = 2E716A391A139722002D3CA5 /* RandomUserGeneratorTests.xctest */;
+			productReference = 2E716A391A139722002D3CA5 /* RUGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +155,7 @@
 				TargetAttributes = {
 					2E716A281A139722002D3CA5 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 39ZXGQ3G5Z;
+						DevelopmentTeam = 9VHA7WMYMU;
 					};
 					2E716A381A139722002D3CA5 = {
 						CreatedOnToolsVersion = 6.1;
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E716A241A139722002D3CA5 /* Build configuration list for PBXProject "RandomUserGenerator" */;
+			buildConfigurationList = 2E716A241A139722002D3CA5 /* Build configuration list for PBXProject "RUG" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,8 +176,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E716A281A139722002D3CA5 /* RandomUserGenerator */,
-				2E716A381A139722002D3CA5 /* RandomUserGeneratorTests */,
+				2E716A281A139722002D3CA5 /* RUG */,
+				2E716A381A139722002D3CA5 /* RUGTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +223,7 @@
 /* Begin PBXTargetDependency section */
 		2E716A3B1A139722002D3CA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2E716A281A139722002D3CA5 /* RandomUserGenerator */;
+			target = 2E716A281A139722002D3CA5 /* RUG */;
 			targetProxy = 2E716A3A1A139722002D3CA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -323,9 +323,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RandomUserGenerator/Info.plist;
+				INFOPLIST_FILE = RUG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RUG;
 			};
 			name = Debug;
 		};
@@ -335,9 +335,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RandomUserGenerator/Info.plist;
+				INFOPLIST_FILE = RUG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RUG;
 			};
 			name = Release;
 		};
@@ -354,10 +354,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RandomUserGeneratorTests/Info.plist;
+				INFOPLIST_FILE = RUGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomUserGenerator.app/Contents/MacOS/RandomUserGenerator";
+				PRODUCT_NAME = RUGTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUG.app/Contents/MacOS/RUG";
 			};
 			name = Debug;
 		};
@@ -370,17 +370,17 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RandomUserGeneratorTests/Info.plist;
+				INFOPLIST_FILE = RUGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomUserGenerator.app/Contents/MacOS/RandomUserGenerator";
+				PRODUCT_NAME = RUGTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUG.app/Contents/MacOS/RUG";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E716A241A139722002D3CA5 /* Build configuration list for PBXProject "RandomUserGenerator" */ = {
+		2E716A241A139722002D3CA5 /* Build configuration list for PBXProject "RUG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E716A411A139722002D3CA5 /* Debug */,
@@ -389,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E716A431A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RandomUserGenerator" */ = {
+		2E716A431A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RUG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E716A441A139722002D3CA5 /* Debug */,
@@ -398,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E716A461A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RandomUserGeneratorTests" */ = {
+		2E716A461A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RUGTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E716A471A139722002D3CA5 /* Debug */,
