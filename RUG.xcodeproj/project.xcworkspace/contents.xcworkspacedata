@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RandomUserGenerator.xcodeproj">
+      location = "self:RUG.xcodeproj">
    </FileRef>
 </Workspace>
