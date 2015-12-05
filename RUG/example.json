@@ -1,0 +1,40 @@
+{
+    "results": [
+        {
+            "user": {
+                "gender": "female",
+                "name": {
+                    "title": "miss",
+                    "first": "aino",
+                    "last": "pulkkinen"
+                },
+                "location": {
+                    "street": "2789 mechelininkatu",
+                    "city": "sastamala",
+                    "state": "lapland",
+                    "zip": 37274
+                },
+                "email": "aino.pulkkinen@example.com",
+                "username": "organicbird335",
+                "password": "mortgage",
+                "salt": "DrCnPyut",
+                "md5": "08c5dbc43733e97063b301e6b35500a1",
+                "sha1": "24d2ef1d3edbe56f1f52658139bd245d9b4c6cc9",
+                "sha256": "2c2cefb1ab6505a5f1c357589e86656d3589a493dc68ccd05aa4e0d422cfbe28",
+                "registered": 1141121176,
+                "dob": 636229167,
+                "phone": "08-347-116",
+                "cell": "048-291-60-32",
+                "HETU": "280290A9728",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/women/12.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/women/12.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/12.jpg"
+                }
+            }
+        }
+    ],
+    "nationality": "FI",
+    "seed": "12ca86b84a7aa05302",
+    "version": "0.7"
+}
