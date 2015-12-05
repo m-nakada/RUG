@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E54CAAF1C133BDC0047EC37 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54CAAE1C133BDC0047EC37 /* Himotoki.framework */; };
+		2E54CAB01C133BDC0047EC37 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54CAAE1C133BDC0047EC37 /* Himotoki.framework */; };
+		2E54CAB31C1381440047EC37 /* RUG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54CAB21C1381440047EC37 /* RUG.swift */; };
+		2E54CAB41C1381440047EC37 /* RUG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54CAB21C1381440047EC37 /* RUG.swift */; };
 		2E716A2F1A139722002D3CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E716A2E1A139722002D3CA5 /* AppDelegate.swift */; };
 		2E716A311A139722002D3CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E716A301A139722002D3CA5 /* Images.xcassets */; };
 		2E716A341A139722002D3CA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E716A321A139722002D3CA5 /* MainMenu.xib */; };
-		2E716A401A139722002D3CA5 /* RandomUserGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E716A3F1A139722002D3CA5 /* RandomUserGeneratorTests.swift */; };
+		2E716A401A139722002D3CA5 /* RUGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E716A3F1A139722002D3CA5 /* RUGTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E54CAAE1C133BDC0047EC37 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/Mac/Himotoki.framework; sourceTree = "<group>"; };
+		2E54CAB21C1381440047EC37 /* RUG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUG.swift; sourceTree = "<group>"; };
+		2E54CAB51C1382380047EC37 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = example.json; path = RUG/example.json; sourceTree = "<group>"; };
 		2E716A291A139722002D3CA5 /* RUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E716A2D1A139722002D3CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E716A2E1A139722002D3CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +38,7 @@
 		2E716A331A139722002D3CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2E716A391A139722002D3CA5 /* RUGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E716A3E1A139722002D3CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E716A3F1A139722002D3CA5 /* RandomUserGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserGeneratorTests.swift; sourceTree = "<group>"; };
+		2E716A3F1A139722002D3CA5 /* RUGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUGTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E54CAAF1C133BDC0047EC37 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E54CAB01C133BDC0047EC37 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +64,8 @@
 		2E716A201A139722002D3CA5 = {
 			isa = PBXGroup;
 			children = (
+				2E54CAAE1C133BDC0047EC37 /* Himotoki.framework */,
+				2E54CAB51C1382380047EC37 /* example.json */,
 				2E716A2B1A139722002D3CA5 /* RUG */,
 				2E716A3C1A139722002D3CA5 /* RUGTests */,
 				2E716A2A1A139722002D3CA5 /* Products */,
@@ -74,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				2E716A2E1A139722002D3CA5 /* AppDelegate.swift */,
+				2E54CAB21C1381440047EC37 /* RUG.swift */,
 				2E716A301A139722002D3CA5 /* Images.xcassets */,
 				2E716A321A139722002D3CA5 /* MainMenu.xib */,
 				2E716A2C1A139722002D3CA5 /* Supporting Files */,
@@ -92,7 +104,7 @@
 		2E716A3C1A139722002D3CA5 /* RUGTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E716A3F1A139722002D3CA5 /* RandomUserGeneratorTests.swift */,
+				2E716A3F1A139722002D3CA5 /* RUGTests.swift */,
 				2E716A3D1A139722002D3CA5 /* Supporting Files */,
 			);
 			path = RUGTests;
@@ -116,6 +128,7 @@
 				2E716A251A139722002D3CA5 /* Sources */,
 				2E716A261A139722002D3CA5 /* Frameworks */,
 				2E716A271A139722002D3CA5 /* Resources */,
+				2E54CAB11C133BE40047EC37 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -150,7 +163,9 @@
 		2E716A211A139722002D3CA5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = mna;
 				TargetAttributes = {
 					2E716A281A139722002D3CA5 = {
@@ -201,11 +216,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E54CAB11C133BE40047EC37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/Himotoki.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E716A251A139722002D3CA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E54CAB31C1381440047EC37 /* RUG.swift in Sources */,
 				2E716A2F1A139722002D3CA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E716A401A139722002D3CA5 /* RandomUserGeneratorTests.swift in Sources */,
+				2E54CAB41C1381440047EC37 /* RUG.swift in Sources */,
+				2E716A401A139722002D3CA5 /* RUGTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +294,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -323,8 +358,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = RUG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mna.tools.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RUG;
 			};
 			name = Debug;
@@ -335,8 +375,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = RUG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mna.tools.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RUG;
 			};
 			name = Release;
@@ -349,6 +394,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -356,6 +402,7 @@
 				);
 				INFOPLIST_FILE = RUGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mna.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RUGTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUG.app/Contents/MacOS/RUG";
 			};
@@ -369,9 +416,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = RUGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mna.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RUGTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUG.app/Contents/MacOS/RUG";
 			};
