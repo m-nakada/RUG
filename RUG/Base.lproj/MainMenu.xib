@@ -18,7 +18,8 @@
                 <outlet property="copyButton2" destination="QhO-ke-fvb" id="It4-lU-UIl"/>
                 <outlet property="copyButton3" destination="OJP-US-Ew6" id="BsW-U0-fX0"/>
                 <outlet property="emailTextField" destination="cMp-a7-5A9" id="9fm-Zl-Yr4"/>
-                <outlet property="legoSwitch" destination="G75-k4-qrg" id="ni5-be-DCm"/>
+                <outlet property="legoSwitch" destination="sv5-9O-q2x" id="Qru-y7-L4S"/>
+                <outlet property="legoSwitchCell" destination="G75-k4-qrg" id="oSb-iz-AMS"/>
                 <outlet property="nameTextField" destination="psZ-ao-djO" id="0pc-op-LuX"/>
                 <outlet property="pictureView" destination="gRI-Zb-2Ll" id="CsR-jr-vyL"/>
                 <outlet property="progressIndicator" destination="f71-cG-jij" id="meY-cd-Ncd"/>
