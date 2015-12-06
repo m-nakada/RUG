@@ -11,6 +11,8 @@
 		2E54CAB01C133BDC0047EC37 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54CAAE1C133BDC0047EC37 /* Himotoki.framework */; };
 		2E54CAB31C1381440047EC37 /* RUG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54CAB21C1381440047EC37 /* RUG.swift */; };
 		2E54CAB41C1381440047EC37 /* RUG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54CAB21C1381440047EC37 /* RUG.swift */; };
+		2E54CABF1C139F890047EC37 /* RUGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54CABE1C139F890047EC37 /* RUGUITests.swift */; };
+		2E54CAC71C13A8A60047EC37 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54CAC61C13A8A60047EC37 /* UI.swift */; };
 		2E716A2F1A139722002D3CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E716A2E1A139722002D3CA5 /* AppDelegate.swift */; };
 		2E716A311A139722002D3CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E716A301A139722002D3CA5 /* Images.xcassets */; };
 		2E716A341A139722002D3CA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E716A321A139722002D3CA5 /* MainMenu.xib */; };
@@ -18,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2E54CAC11C139F890047EC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E716A211A139722002D3CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E716A281A139722002D3CA5;
+			remoteInfo = RUG;
+		};
 		2E716A3A1A139722002D3CA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2E716A211A139722002D3CA5 /* Project object */;
@@ -31,6 +40,10 @@
 		2E54CAAE1C133BDC0047EC37 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/Mac/Himotoki.framework; sourceTree = "<group>"; };
 		2E54CAB21C1381440047EC37 /* RUG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUG.swift; sourceTree = "<group>"; };
 		2E54CAB51C1382380047EC37 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = example.json; path = RUG/example.json; sourceTree = "<group>"; };
+		2E54CABC1C139F890047EC37 /* RUGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E54CABE1C139F890047EC37 /* RUGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUGUITests.swift; sourceTree = "<group>"; };
+		2E54CAC01C139F890047EC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E54CAC61C13A8A60047EC37 /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 		2E716A291A139722002D3CA5 /* RUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E716A2D1A139722002D3CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E716A2E1A139722002D3CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2E54CAB91C139F890047EC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E716A261A139722002D3CA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E54CABD1C139F890047EC37 /* RUGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E54CABE1C139F890047EC37 /* RUGUITests.swift */,
+				2E54CAC01C139F890047EC37 /* Info.plist */,
+				2E54CAC61C13A8A60047EC37 /* UI.swift */,
+			);
+			path = RUGUITests;
+			sourceTree = "<group>";
+		};
 		2E716A201A139722002D3CA5 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +98,7 @@
 				2E54CAB51C1382380047EC37 /* example.json */,
 				2E716A2B1A139722002D3CA5 /* RUG */,
 				2E716A3C1A139722002D3CA5 /* RUGTests */,
+				2E54CABD1C139F890047EC37 /* RUGUITests */,
 				2E716A2A1A139722002D3CA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +108,7 @@
 			children = (
 				2E716A291A139722002D3CA5 /* RUG.app */,
 				2E716A391A139722002D3CA5 /* RUGTests.xctest */,
+				2E54CABC1C139F890047EC37 /* RUGUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +153,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2E54CABB1C139F890047EC37 /* RUGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E54CAC51C139F890047EC37 /* Build configuration list for PBXNativeTarget "RUGUITests" */;
+			buildPhases = (
+				2E54CAB81C139F890047EC37 /* Sources */,
+				2E54CAB91C139F890047EC37 /* Frameworks */,
+				2E54CABA1C139F890047EC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E54CAC21C139F890047EC37 /* PBXTargetDependency */,
+			);
+			name = RUGUITests;
+			productName = RUGUITests;
+			productReference = 2E54CABC1C139F890047EC37 /* RUGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2E716A281A139722002D3CA5 /* RUG */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E716A431A139722002D3CA5 /* Build configuration list for PBXNativeTarget "RUG" */;
@@ -168,6 +218,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = mna;
 				TargetAttributes = {
+					2E54CABB1C139F890047EC37 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 2E716A281A139722002D3CA5;
+					};
 					2E716A281A139722002D3CA5 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = 9VHA7WMYMU;
@@ -193,11 +247,19 @@
 			targets = (
 				2E716A281A139722002D3CA5 /* RUG */,
 				2E716A381A139722002D3CA5 /* RUGTests */,
+				2E54CABB1C139F890047EC37 /* RUGUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2E54CABA1C139F890047EC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E716A271A139722002D3CA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +296,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E54CAB81C139F890047EC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E54CABF1C139F890047EC37 /* RUGUITests.swift in Sources */,
+				2E54CAC71C13A8A60047EC37 /* UI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E716A251A139722002D3CA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +326,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2E54CAC21C139F890047EC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E716A281A139722002D3CA5 /* RUG */;
+			targetProxy = 2E54CAC11C139F890047EC37 /* PBXContainerItemProxy */;
+		};
 		2E716A3B1A139722002D3CA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2E716A281A139722002D3CA5 /* RUG */;
@@ -274,6 +350,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2E54CAC31C139F890047EC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RUGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mna.RUGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RUG;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2E54CAC41C139F890047EC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RUGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mna.RUGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RUG;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		2E716A411A139722002D3CA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +537,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E54CAC51C139F890047EC37 /* Build configuration list for PBXNativeTarget "RUGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E54CAC31C139F890047EC37 /* Debug */,
+				2E54CAC41C139F890047EC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2E716A241A139722002D3CA5 /* Build configuration list for PBXProject "RUG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
